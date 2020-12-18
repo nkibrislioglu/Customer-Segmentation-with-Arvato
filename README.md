@@ -31,16 +31,19 @@ There are four main and two supplemantary data sets:
 
 Each row of the demographics files represents a single person, but also includes information outside of individuals, including information about their household, building, and neighborhood. The "CUSTOMERS" file contains three extra columns ('CUSTOMER_GROUP', 'ONLINE_PURCHASE', and 'PRODUCT_GROUP'), which provide broad information about the customers depicted in the file. The original "MAILOUT" file included one additional column, "RESPONSE", which indicated whether each recipient became a customer of the company or not. This column enables us to run a supervised learning model.
 
-There are also two supplementary files which includes additional information about features, meaning and their coding. 
-**DIAS Information Levels - Attributes 2017.xlsx:** A top-level list of attributes and descriptions, organized by informational category.
+There are also two supplementary files which includes additional information about features, meaning and their coding.  
+**DIAS Information Levels - Attributes 2017.xlsx:** A top-level list of attributes and descriptions, organized by informational category. 
 **DIAS Attributes - Values 2017.xlsx:** A a detailed mapping of data values for each feature in alphabetical order.
 
 Under the terms and conditions, I am not allowed to share the data files.
 
 ## File Descriptions
-There are five jupiter notebooks and two csv files in this repository. Data files were explained under the understanding the data section. File names are 
+There are five jupiter notebooks and two csv files in this repository. Data files were explained under the understanding the data section. File names are:
+
 * Avarto_Project_Workbook.ipynb: Includes data preprocessing, supervised and unsupervised learing codes
+
 * Report.pdf: The report of the findings
+
 * Terms.pdf:  The terms and conditions to use the data sets
 
 
